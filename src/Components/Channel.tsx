@@ -39,7 +39,6 @@ const Channel = (  ) => {
                 <RenderChannel channel={channelID} marginTop="-100px"/>
             </Box>
             <Box display= "flex" p= "2">
-                <Typography color="white">:</Typography>
                 <Box sx={{ mr: { sm: "100px"} }}/>
                 <Video video={videos}/>
             </Box>
