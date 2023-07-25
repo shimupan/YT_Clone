@@ -25,7 +25,7 @@
   <p align="center">
     Responsive YouTube Clone that allows you to search and watch YouTube videos!
     <br />
-    <a href="youtube.com">Visit the live Project here!</a>
+    <a href="https://yt-clone-jade.vercel.app/">Visit the live Project here!</a>
   </p>
 </div>
 
@@ -69,7 +69,7 @@ Fully working YouTube clone that allows you to search and watch YouTube videos.
 <br/>
 Displays video information, channel information, and is mobile friendly.
 <br/><br/>
-<a href="youtube.com">Visit the live Project here!</a> (If the page isn't loading it is due to the API limit)
+<a href="https://yt-clone-jade.vercel.app/">Visit the live Project here!</a> (If the page isn't loading it is due to the API limit)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
