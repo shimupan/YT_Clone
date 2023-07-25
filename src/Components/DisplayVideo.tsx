@@ -28,7 +28,6 @@ const DisplayVideo = () => {
     }, [id])
 
     if(!(currVideo as any)) return <Loading/>;
-    console.log(currVideo);
 
     return (
         <Box minHeight="100vh">
@@ -45,7 +44,7 @@ const DisplayVideo = () => {
 
                         <Stack direction="row" justifyContent="space-between" sx={{ color:"white" }} py={1} px={2}>
                             <Link to={`/channel/${currVideo.snippet.channelId}`}>
-                                <Typography variant={{sm: "subtitle1", md: "h6"}} color="white">
+                                <Typography sx={{sm: "subtitle1", md: "h6"}} color="white">
                                     {currVideo.snippet.channelTitle}
                                     <CheckCircle sx={{ fontSize: "12px", color: "gray", ml: "5px"}}/>
                                 </Typography>

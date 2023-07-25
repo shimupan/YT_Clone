@@ -9,7 +9,8 @@ import Video from "./Video";
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 import axios from 'axios';
-import config from "../../config";
+
+import { config } from "../../config"
 
 export const BASE_URL = 'https://youtube-v31.p.rapidapi.com';
 
@@ -18,7 +19,7 @@ const options = {
     maxResults: '50'
   },
   headers: {
-    'X-RapidAPI-Key': config.YT3_API_KEY,
+    'X-RapidAPI-Key': config.YT_KEY,
     'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
   }
 };

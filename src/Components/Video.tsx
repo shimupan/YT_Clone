@@ -6,7 +6,7 @@ import Loading from "./Loading";
 
 const Video = ( {video, direction}:any ) => {
     if(!video) return <Loading/>;
-    console.log(video[0].id.channelId)
+
     return (
         <Stack direction={direction || "row"} flexWrap="wrap" justifyContent="start" gap={2}>
             {video.map((item: any, index: number) => (

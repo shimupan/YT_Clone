@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 
 import Video from "./Video";
 import RenderChannel from "./RenderChannel";
@@ -13,8 +13,6 @@ const Channel = (  ) => {
 
     const [channelID, setChannelID] = useState(null);
     const [videos, setVideos] = useState(null);
-
-    console.log(channelID, videos);
 
     useEffect(()=>{
         API(`channels?part=snippet&id=${id}`)
